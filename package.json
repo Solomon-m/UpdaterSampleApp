@@ -1,0 +1,27 @@
+{
+  "name": "updatertest",
+  "version": "1.0.0",
+  "description": "updater test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solomon-m/UpdateServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Solomon-m/UpdateServer/issues"
+  },
+  "homepage": "https://github.com/Solomon-m/UpdateServer#readme",
+  "build": {
+  "appId": "updatertest.id",
+  "win": {
+    "buildResources": "/Users/solomon/Documents/Git/UpdateServer/Electron.app/Contents/Resources/app",
+    "output":"/Users/solomon/Documents/Git/Files/setups/windows/",
+    "app":"/Users/solomon/Documents/Git/UpdateServer/Electron.app/Contents/Resources/app"
+  }
+ }
+}
